@@ -456,9 +456,9 @@ All timing parameters are exposed as ROS 2 node parameters (see table above) and
 
 | Name | Role |
 |---|---|
-| **Jomana** | Team Leader — system integration & project coordination |
-| **Youssef** | Director — robot motion planning & MoveIt 2 integration |
-| **Tarek Okasha** | Voice module — speech recognition, command routing & vision pipeline |
+| **Abdelrahman** | Director — system integration & project coordination |
+| **Youssef** | Sponsor — robot motion planning & MoveIt 2 integration |
+| **Tarek Okasha** | Team Leader — speech recognition, command routing & vision pipeline |
 
 *GIU Cairo — Intelligent Robotics Project, Spring 2026*
 
