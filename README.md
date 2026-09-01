@@ -118,7 +118,7 @@ Simulation mode runs the full pipeline with a mock Kinect stream and `ur_robot_d
 ## Project Structure
 
 ```
-ur5e-kinect-pick-and-place/
+robot-ur5e-kinect-pick-and-place/
 ├── src/
 │   └── kinect_picking/             # ROS 2 ament_python package
 │       ├── kinect_picking/
@@ -200,7 +200,7 @@ sudo apt install -y freenect python3-freenect
 
 ```bash
 git clone https://github.com/tarekokashha/robot-ur5e-kinect-pick-and-place.git
-cd ur5e-kinect-pick-and-place
+cd robot-ur5e-kinect-pick-and-place
 ```
 
 ### 2. Source ROS 2 Humble
@@ -230,7 +230,7 @@ No Kinect or UR5e robot required. The simulation uses a synthetic RGB+depth stre
 ### One-command launch
 
 ```bash
-cd ur5e-kinect-pick-and-place
+cd robot-ur5e-kinect-pick-and-place
 bash run_simulation.sh
 ```
 
