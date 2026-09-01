@@ -73,7 +73,7 @@ Simulation mode runs the full pipeline with a mock Kinect stream and `ur_robot_d
                      /detection/target_coords                         
                                   │                                   
                                   ▼                                   
-              ┌───────────────────────────────────┐                   
+              ┌─────────────────────────────────┐                   
               │       robot_commander_node        │                   
               │  Camera → robot-base transform    │                   
               │  MoveIt 2 Cartesian planning      │                   
@@ -90,11 +90,11 @@ Simulation mode runs the full pipeline with a mock Kinect stream and `ur_robot_d
               │                                   │                   
               └──────────────┬────────────────────┘                   
                              ▼                                        
-              ┌─────────────────────────────────┐                     
+              ┌───────────────────────────────┐                     
               │      UR5e Manipulator Arm       │                     
               │   (real or fake hardware)       │                     
               │   + Robotiq 2F-85 Gripper       │                     
-              └─────────────────────────────────┘                     
+              └───────────────────────────────┘                     
 ```
 
 ---
@@ -199,7 +199,7 @@ sudo apt install -y freenect python3-freenect
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/tarekokasha22/ur5e-kinect-pick-and-place.git
+git clone https://github.com/tarekokashha/robot-ur5e-kinect-pick-and-place.git
 cd ur5e-kinect-pick-and-place
 ```
 
