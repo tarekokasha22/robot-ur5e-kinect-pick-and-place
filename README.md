@@ -4,34 +4,11 @@
 
 ### Voice-Commanded Robot Manipulation with 3-D Vision
 
-[![ROS 2 Humble](https://img.shields.io/badge/ROS%202-Humble-blue?logo=ros&logoColor=white)](https://docs.ros.org/en/humble/)
-[![Python 3.10](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![MoveIt 2](https://img.shields.io/badge/MoveIt-2-orange?logo=ros&logoColor=white)](https://moveit.ros.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Ubuntu 22.04](https://img.shields.io/badge/Ubuntu-22.04-E95420?logo=ubuntu&logoColor=white)](https://ubuntu.com/)
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?logo=opencv&logoColor=white)](https://opencv.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A fully integrated ROS 2 robotics system that fuses **depth-camera vision**, **real-time shape detection**, and **voice-activated commands** to autonomously pick and place coloured objects with a **Universal Robots UR5e** manipulator arm.
 
 </div>
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [System Architecture](#system-architecture)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Quick Start — Simulation](#quick-start--simulation)
-- [Real Hardware Usage](#real-hardware-usage)
-- [ROS 2 Topics & Parameters](#ros-2-topics--parameters)
-- [Node Reference](#node-reference)
-- [Configuration](#configuration)
-- [Team](#team)
-- [License](#license)
 
 ---
 
@@ -46,6 +23,10 @@ This project implements a complete **voice-commanded pick-and-place pipeline** f
 5. Controls the **Robotiq 2F-85 gripper** to open / close around the object
 
 A fully-featured **simulation mode** (no hardware required) reproduces the entire pipeline using a synthetic Kinect stream and fake UR5e hardware, making it possible to develop and demo on any ROS 2 Humble machine.
+
+**Tested on:** Ubuntu 22.04 LTS &middot; ROS 2 Humble Hawksbill &middot; Python 3.10 &middot; MoveIt 2 (Humble) &middot; OpenCV 4.x &middot; Microsoft Kinect 360 via libfreenect &middot; UR5e with a Robotiq 2F-85
+
+Simulation mode runs the full pipeline with a mock Kinect stream and `ur_robot_driver` fake hardware, so the repository is reproducible on any ROS 2 Humble machine without the camera or the arm.
 
 ---
 
